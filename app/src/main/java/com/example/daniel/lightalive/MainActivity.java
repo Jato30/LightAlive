@@ -7,7 +7,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
+
+    public ArrayList<Lamp> arrayLampadas = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,4 +30,13 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+
+    private void LampSettings(final Lamp lampada) {
+
+    }
+
+
+    public void ChangeState(View view){
+
+    }
 }
